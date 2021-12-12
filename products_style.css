@@ -1,0 +1,23 @@
+#main{
+    background-color: hsl(348, 83%, 47%);
+}
+#cap{
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+}
+.carousel-inner img{
+    margin: auto;
+    
+}
+.carousel .carousel-indicators li.active {
+    background-color: yellow;
+}
+.carousel .carousel-indicators li {
+    background-color:chocolate;
+}
+@media screen and (max-width: 500px) {
+    #cap{
+        font-size: 10vw;
+    }
+}
