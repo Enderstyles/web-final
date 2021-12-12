@@ -1,14 +1,28 @@
 #main{
     background-color: hsl(348, 83%, 47%);
 }
+.flex-container1 {
+    display: flex;
+    margin: 20px;
+    margin-left: 130px;}
+.flex-container1 > div {
+margin-left: 50px;
+text-align: center;}
+.flex-container1 > div > button {
+color: white;}
+
 #cap{
     text-align: center;
     color: white;
     font-size: 5vw;
 }
+#clothes-cap{
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
 .carousel-inner img{
     margin: auto;
-    
 }
 .carousel .carousel-indicators li.active {
     background-color: yellow;
