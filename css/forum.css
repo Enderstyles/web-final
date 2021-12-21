@@ -1,0 +1,23 @@
+
+@media screen and (min-width: 200px) {
+    #main{
+        background-color: wheat;
+    }
+    #container{
+        height: 1000px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #main{
+        background-color: hsl(348, 83%, 47%);
+        display: flex;
+        justify-content: center;
+    }
+    #container{
+        display: block;
+        background-color: wheat;
+        width: 80vw;
+        height: 1000px;
+    }    
+}
