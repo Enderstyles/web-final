@@ -19,11 +19,14 @@ color: white;}
 #content{
     width: 80vw;
 }
-
+.img-car{
+    max-width: 80vw;
+    max-height: 80hw;
+}
 .merch-cap{
     text-align: center;
     color: yellow;
-    font-size: 3vw;
+    font-size: 5vh;
 }
 .carousel-inner img{
     margin: auto;

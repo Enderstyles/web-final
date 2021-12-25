@@ -24,6 +24,18 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <!--vue js-->
+  <script src="vue.js"></script>
+  <script>
+    var v = new Vue({
+      data: {
+        styleObject: {
+          color: 'red',
+          fontSize: '13px'
+        }
+      }
+    });
+  </script>
 </head>
 
 <body id="main">
@@ -88,19 +100,19 @@
     <div id="clothes-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner mx-auto container" role="listbox">
         <div class="carousel-item active">
-          <img src="src/products/clothes1.jpg" alt="first" class=" d-block" width="400" height="400">
+          <img src="src/products/clothes1.jpg" alt="first" class="img-car d-block" width="400" height="400">
         </div>
         <div class="carousel-item">
-          <img src="src/products/clothes2.jpg" alt="second" class=" d-block" width="400" height="400">
+          <img src="src/products/clothes2.jpg" alt="second" class="img-car d-block" width="400" height="400">
         </div>
         <div class="carousel-item">
-          <img src="src/products/clothes3.jpg" alt="third" class="d-block" width="400" height="400">
+          <img src="src/products/clothes3.jpg" alt="third" class="img-car d-block" width="400" height="400">
         </div>
         <div class="carousel-item">
-          <img src="src/products/clothes4.jpg" alt="fourth" class=" d-block" width="400" height="400">
+          <img src="src/products/clothes4.jpg" alt="fourth" class="img-car d-block" width="400" height="400">
         </div>
         <div class="carousel-item">
-          <img src="src/products/clothes5.png" alt="fifth" class=" d-block" width="400" height="400">
+          <img src="src/products/clothes5.png" alt="fifth" class="img-car d-block" width="400" height="400">
         </div>
       </div>
       <a class="carousel-control-prev" href="#clothes-carousel" role="button" data-slide="prev">
@@ -119,13 +131,15 @@
         <li data-target="clothes-carousel" data-slide-to="4"></li>
       </ol>
     </div>
-    <div id="toys-cap" class="container merch-cap" style="margin-top: 5%;">
+    <div id="toys-cap" class="container merch-cap"  style="margin-top: 5%;">
       <div class="row">
         <div class="col-md-12">
           <p>Toys</p>
         </div>
       </div>
     </div>
+    
+
     <div id="toys-carousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 5vh">
       <ol class="carousel-indicators">
         <li data-target="#toys-carousel" data-slide-to="0" class="active"></li>
